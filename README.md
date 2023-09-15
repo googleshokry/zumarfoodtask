@@ -31,7 +31,13 @@
 ```bash
 $ npm install
 ```
-
+## Then 
+copy file environment
+```
+cp .env-example .env
+```
+#### set mongodb_url with auth database and  database name in .env file
+## then
 ## Running the app
 
 ```bash
@@ -44,6 +50,8 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+#### you can import postman file and test all apis after register new user then login and take token then append in all headers in request api
+
 
 ## Test
 
@@ -60,13 +68,7 @@ $ npm run test:cov
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+you can check postman collection in repository for apis 
 
 ## License
 

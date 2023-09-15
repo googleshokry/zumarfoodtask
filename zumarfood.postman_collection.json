@@ -18,7 +18,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTAzOTkzMTU2NjM3YmQ2MmYzOTZjNjEiLCJpYXQiOjE2OTQ3OTU5OTIsImV4cCI6MTY5OTk3OTk5Mn0.fPCYDjvufAarF4hbURLff3aPD-NF7koGA8eyzikTQY0",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0OTc0NmVkMWVhNDUwZTQ4YjdmOTciLCJpYXQiOjE2OTQ4MDA1MzksImV4cCI6MTY5OTk4NDUzOX0.yRaNckVR_TT62kquqQ_HZqlW-z3FJESdyK5IwrcJj_8",
 							"type": "string"
 						}
 					]
@@ -35,14 +35,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/transactions/history",
+					"raw": "http://localhost:3000/user/history",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"transactions",
+						"user",
 						"history"
 					]
 				}
@@ -63,14 +63,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/transactions/history",
+							"raw": "http://localhost:3000/user/history",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"transactions",
+								"user",
 								"history"
 							]
 						}
@@ -121,7 +121,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTAzOTkzMTU2NjM3YmQ2MmYzOTZjNjEiLCJpYXQiOjE2OTQ3OTU5OTIsImV4cCI6MTY5OTk3OTk5Mn0.fPCYDjvufAarF4hbURLff3aPD-NF7koGA8eyzikTQY0",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0OTc0NmVkMWVhNDUwZTQ4YjdmOTciLCJpYXQiOjE2OTQ4MDA1MzksImV4cCI6MTY5OTk4NDUzOX0.yRaNckVR_TT62kquqQ_HZqlW-z3FJESdyK5IwrcJj_8",
 							"type": "string"
 						}
 					]
@@ -130,7 +130,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n \"baseCurrency\":\"AED\",\n \"targetCurrency\":\"USD\",\n \"amount\":5   \n}",
+					"raw": "{\n \"baseCurrency\":\"AED\",\n \"targetCurrency\":\"USD\",\n \"amount\":1502  \n}",
 					"options": {
 						"raw": {
 							"language": "json"

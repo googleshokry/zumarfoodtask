@@ -6,9 +6,11 @@ import { UserModule } from './users/user.module';
 import { AuthModule } from './auth/auth.module';
 import { ExchangeRateModule } from './exchange-rate/exchange-rate.module';
 import { TransactionsModule } from './transactions/transactions.module';
+import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/auth'),
+    ConfigModule.forRoot(),
+    MongooseModule.forRoot(process.env.mongodb_url),
     UserModule,
     AuthModule,
     ExchangeRateModule,

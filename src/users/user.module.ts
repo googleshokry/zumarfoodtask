@@ -9,9 +9,11 @@ import { HashService } from 'src/users/hash.service';
 import { AuthService } from 'src/auth/auth.service';
 import { JwtStrategy } from 'src/strategy/jwt.strategy';
 import { LocalStrategy } from 'src/strategy/local.strategy';
+import { TransactionsModule } from '../transactions/transactions.module';
 
 @Module({
   imports: [
+    TransactionsModule,
     MongooseModule.forFeature([
       {
         name: User.name,

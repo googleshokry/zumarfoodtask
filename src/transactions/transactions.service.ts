@@ -10,11 +10,16 @@ export class TransactionsService {
     @InjectModel(Transaction.name)
     private TransactionModel: Model<TransactionDocument>,
   ) {}
+
   create(createTransactionDto: CreateTransactionDto) {
+    // create new transaction save data userid, base currency and target currency and amount then return object info for this transaction
     return this.TransactionModel.create(createTransactionDto);
   }
 
-  findAll() {
-    return this.TransactionModel.find();
+  async findAll(user: any) {
+    // find all transaction for user by user id sent in token
+    return await this.TransactionModel.find({
+      userId: user.userId,
+    });
   }
 }
