@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "ea1d8cf6-ac64-4661-bf00-7576f79a2b38",
+		"name": "zumarfood",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1330523",
+		"_collection_link": "https://web.postman.co/workspace/Rotana~1175dee1-fca2-48b0-99fd-5e843134f39a/collection/1330523-ea1d8cf6-ac64-4661-bf00-7576f79a2b38?action=share&source=collection_link&creator=1330523"
+	},
+	"item": [
+		{
+			"name": "convert history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTAzOTkzMTU2NjM3YmQ2MmYzOTZjNjEiLCJpYXQiOjE2OTQ3OTU5OTIsImV4cCI6MTY5OTk3OTk5Mn0.fPCYDjvufAarF4hbURLff3aPD-NF7koGA8eyzikTQY0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/transactions/history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"transactions",
+						"history"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "convert history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/transactions/history",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"transactions",
+								"history"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2419"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"973-KTv8BGi82MBBkw3OqubsJ9g09mU\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Sep 2023 17:22:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"650488e7dd17f0b8d6807588\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6504891ebda8a1b50723a0af\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048954d2d8b6eab31f0f6e\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048966ac146e3ed37dddc5\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6504896c475be067a7762321\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6504897e5f140d6ac988c1b7\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6504899e659439ca3faaa777\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"650489b90d71c12e11d42ba9\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"1\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048e87ca19524f521a97e6\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048ef1ca19524f521a97e8\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048f3c51e6f5e6926dac8f\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048f65229dd9e49a0d9fb3\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048fd5708109822029073d\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65048fdf539a088cc7a67ab8\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65049013169d8702517f88da\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"650490219eeba82c586da4ad\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65049029eb8b7c7d7277c34c\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"650490bd2bf5603f3209e5de\",\n        \"baseCurrency\": \"USD\",\n        \"targetCurrency\": \"AED\",\n        \"amount\": \"150\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"650492815268d1de3356f8af\",\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"6503993156637bd62f396c61\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "convert",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTAzOTkzMTU2NjM3YmQ2MmYzOTZjNjEiLCJpYXQiOjE2OTQ3OTU5OTIsImV4cCI6MTY5OTk3OTk5Mn0.fPCYDjvufAarF4hbURLff3aPD-NF7koGA8eyzikTQY0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"baseCurrency\":\"AED\",\n \"targetCurrency\":\"USD\",\n \"amount\":5   \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/convert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convert"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "convert",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"baseCurrency\":\"AED\",\n \"targetCurrency\":\"USD\",\n \"amount\":5   \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/convert",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"convert"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "170"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"aa-ayBgRqV+xxGMjzklAK4EAlrCEzc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Sep 2023 17:42:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transaction\": {\n        \"baseCurrency\": \"AED\",\n        \"targetCurrency\": \"USD\",\n        \"amount\": \"5\",\n        \"userId\": \"65049746ed1ea450e48b7f97\",\n        \"_id\": \"65049778ed1ea450e48b7f9c\",\n        \"__v\": 0\n    },\n    \"converted\": 0.2723\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\":\"shokry@gmail.com\",\n \"password\":\"123456\"   \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"username\":\"shokry@gmail.com\",\n \"password\":\"123456\"   \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "191"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"bf-1Pmk9hm0VnF3DfyM2FnjyfAenTY\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Sep 2023 17:20:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTAzOTkzMTU2NjM3YmQ2MmYzOTZjNjEiLCJpYXQiOjE2OTQ3OTg0NTIsImV4cCI6MTY5OTk4MjQ1Mn0.ieLyfVk6XkM6LWnd254Rafc8B9KYpNu2697A4N967z4\"\n}"
+				}
+			]
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\":\"shokry@gmail.com\",\n \"password\":\"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"username\":\"shokry@gmail.com\",\n \"password\":\"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"34-zYZ9na+4n7Npm8Ug9Q9oEeIa/dc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Sep 2023 17:41:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"username\": \"shokry@gmail.com\",\n    \"messsage\": \"created\"\n}"
+				}
+			]
+		}
+	]
+}
