@@ -51,8 +51,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 #### you can import postman file and test all apis after register new user then login and take token then append in all headers in request api
-
-
+#### i deployed to this link https://tasty-bridge-production.up.railway.app/
 ## Test
 
 ```bash
