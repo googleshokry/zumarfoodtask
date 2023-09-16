@@ -18,7 +18,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0OTc0NmVkMWVhNDUwZTQ4YjdmOTciLCJpYXQiOjE2OTQ4MDA1MzksImV4cCI6MTY5OTk4NDUzOX0.yRaNckVR_TT62kquqQ_HZqlW-z3FJESdyK5IwrcJj_8",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0ZjMyNDg0YTQxNzQ0OGQyMDg0NmYiLCJpYXQiOjE2OTQ4MjMyMjEsImV4cCI6MTcwMDAwNzIyMX0.NQSpHqSyMe5FeXnY2YtnBCi7i508JLmHv48IKf8s6k4",
 							"type": "string"
 						}
 					]
@@ -35,12 +35,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/user/history",
-					"protocol": "http",
+					"raw": "https://tasty-bridge-production.up.railway.app/user/history",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"tasty-bridge-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"user",
 						"history"
@@ -121,7 +123,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0OTc0NmVkMWVhNDUwZTQ4YjdmOTciLCJpYXQiOjE2OTQ4MDA1MzksImV4cCI6MTY5OTk4NDUzOX0.yRaNckVR_TT62kquqQ_HZqlW-z3FJESdyK5IwrcJj_8",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTA0ZjMyNDg0YTQxNzQ0OGQyMDg0NmYiLCJpYXQiOjE2OTQ4MjMyMjEsImV4cCI6MTcwMDAwNzIyMX0.NQSpHqSyMe5FeXnY2YtnBCi7i508JLmHv48IKf8s6k4",
 							"type": "string"
 						}
 					]
@@ -138,12 +140,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/convert",
-					"protocol": "http",
+					"raw": "https://tasty-bridge-production.up.railway.app/convert",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"tasty-bridge-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"convert"
 					]
@@ -229,12 +233,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/user/login",
-					"protocol": "http",
+					"raw": "https://tasty-bridge-production.up.railway.app/user/login",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"tasty-bridge-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"user",
 						"login"
@@ -322,12 +328,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/user/register",
-					"protocol": "http",
+					"raw": "https://tasty-bridge-production.up.railway.app/user/register",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"tasty-bridge-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"user",
 						"register"
